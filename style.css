@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.calculator{
+    display: grid;
+    user-select: none;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-body{
+    background-color: white;
+    border: 2px solid black;
+}
+
+td{
+    background-color: white;
+    width: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid black;
+}
+
+td:hover{
+    background-color: white;
+}
+
+.screen-col{
+    user-select: text;
+}
+
+.screen-col:hover{
+    background-color: white;
+}
